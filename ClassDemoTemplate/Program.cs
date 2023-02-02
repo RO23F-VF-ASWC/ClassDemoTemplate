@@ -3,8 +3,8 @@ using ClassDemoTemplate.template;
 
 Console.WriteLine("Hello, World!");
 
-AbstractADT adt = new ListADT();
-//AbstractADT adt = new SetADT();
+//AbstractADT adt = new ListADT();
+AbstractADT adt = new SetADT();
 
 adt.Add("Peter");
 adt.Add("Anders");
